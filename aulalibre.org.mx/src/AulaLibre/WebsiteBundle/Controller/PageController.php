@@ -9,7 +9,7 @@
  * @version    1.0
  */
 
-namespace AulaLibre\WebsiteController\Controller;
+namespace AulaLibre\WebsiteBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
