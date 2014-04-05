@@ -1,0 +1,4 @@
+<VirtualHost *:80>
+ServerName      aulalibre.org.mx
+Redirect permanent / http://www.aulalibre.org.mx/
+</VirtualHost>

@@ -1,0 +1,8 @@
+## Page Controller
+aulalibre_website_home:
+    pattern:    /
+    defaults:   { _controller: AulaLibreWebsiteBundle:Page:home }
+
+aulalibre_website_page:
+    pattern:    /{page}
+    defaults:   { _controller: AulaLibreWebsiteBundle:Page:page }

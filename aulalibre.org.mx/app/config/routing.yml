@@ -1,0 +1,3 @@
+aulalibre_website:
+    resource: "@AulaLibreWebsiteBundle/Resources/config/routing.yml"
+    prefix:   /

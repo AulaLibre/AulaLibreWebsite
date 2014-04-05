@@ -1,0 +1,12 @@
+<VirtualHost *:80>
+ServerName      www.aulalibre.org.mx
+ServerAdmin     admin@aulalibre.org.mx
+ServerSignature email
+DocumentRoot    /var/www/aulalibre.org.mx/web
+RewriteEngine   On
+<Directory /var/www/aulalibre.org.mx/web>
+AllowOverride   All
+</Directory>
+#CustomLog       logs/aulalibre.org.mx.access.log combined
+#ErrorLog        logs/aulalibre.org.mx.error.log
+</VirtualHost>
