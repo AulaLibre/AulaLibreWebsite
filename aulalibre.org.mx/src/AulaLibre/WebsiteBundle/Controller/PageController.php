@@ -40,5 +40,4 @@ class PageController extends Controller
 
         return $this->render($layout);
     }
-
 }

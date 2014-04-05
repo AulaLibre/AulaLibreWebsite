@@ -22,7 +22,7 @@ sudo chmod 777 -R app/logs
 
 echo - Clear cache -
 sudo chmod 777 -R app/cache
-php app/console cache:clear --env=debug
+php app/console cache:clear --env=dev
 sudo chmod 777 -R app/cache
 
 echo - Update database -
